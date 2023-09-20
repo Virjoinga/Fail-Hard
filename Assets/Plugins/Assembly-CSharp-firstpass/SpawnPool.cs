@@ -269,7 +269,7 @@ public sealed class SpawnPool : MonoBehaviour, IEnumerable, IList<Transform>, IC
 			component.autodestruct = false;
 		}
 		ParticleEmitter component2 = transform.GetComponent<ParticleEmitter>();
-		component2.renderer.material.SetColor(colorPropertyName, color);
+		component2.GetComponent<Renderer>().material.SetColor(colorPropertyName, color);
 		component2.emit = true;
 		StartCoroutine(ListenForEmitDespawn(component2));
 		return component2;
