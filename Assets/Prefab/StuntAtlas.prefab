@@ -1,0 +1,1894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1875097704057065}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1875097704057065
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4802190382695452}
+  - 114: {fileID: 114073963018086065}
+  m_Layer: 0
+  m_Name: StuntAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802190382695452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1875097704057065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114073963018086065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1875097704057065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d27674ff5392b9141bc0644dfe274eca, type: 2}
+  sprites:
+  - name: back
+    outer:
+      serializedVersion: 2
+      x: 1682
+      y: 581
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1682
+      y: 581
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltarget_empty
+    outer:
+      serializedVersion: 2
+      x: 1725
+      y: 680
+      width: 103
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 1725
+      y: 680
+      width: 103
+      height: 99
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltarget
+    outer:
+      serializedVersion: 2
+      x: 1045
+      y: 3
+      width: 89
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 1045
+      y: 3
+      width: 89
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Forgotten_bold_80_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 85
+      width: 511
+      height: 426
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 85
+      width: 511
+      height: 426
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.0019569471
+    paddingTop: 0
+    paddingBottom: 0.20187794
+  - name: upgrade
+    outer:
+      serializedVersion: 2
+      x: 1864
+      y: 581
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1864
+      y: 581
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: next
+    outer:
+      serializedVersion: 2
+      x: 1955
+      y: 581
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1955
+      y: 581
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltarget_outline
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 3
+      width: 23
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 3
+      width: 23
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: brake
+    outer:
+      serializedVersion: 2
+      x: 1045
+      y: 406
+      width: 169
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1045
+      y: 406
+      width: 169
+      height: 184
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: throttle
+    outer:
+      serializedVersion: 2
+      x: 1045
+      y: 591
+      width: 173
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 1045
+      y: 591
+      width: 173
+      height: 188
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: replay
+    outer:
+      serializedVersion: 2
+      x: 1722
+      y: 490
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1722
+      y: 490
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltarget_shine
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 329
+      width: 89
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 329
+      width: 89
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buttons_glow
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 546
+      width: 125
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 546
+      width: 125
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltargets_base
+    outer:
+      serializedVersion: 2
+      x: 1529
+      y: 719
+      width: 195
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1632
+      y: 719
+      width: 76
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stay_1
+    outer:
+      serializedVersion: 2
+      x: 1684
+      y: 1
+      width: 31
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1684
+      y: 1
+      width: 31
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stay_4
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 235
+      width: 58
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 235
+      width: 58
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stay_2
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 268
+      width: 59
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1459
+      y: 268
+      width: 59
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stay_3
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 174
+      width: 59
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1459
+      y: 174
+      width: 59
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: stay_5
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 80
+      width: 59
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1459
+      y: 80
+      width: 59
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skip
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 124
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 124
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: play
+    outer:
+      serializedVersion: 2
+      x: 1568
+      y: 834
+      width: 190
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 1568
+      y: 834
+      width: 190
+      height: 190
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: reply
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 33
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 33
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scorescreen_base
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 780
+      width: 762
+      height: 244
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 785
+      width: 762
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: leveltarget_outline_big
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 488
+      width: 94
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 488
+      width: 94
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 30
+      width: 56
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 30
+      width: 56
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: grid
+    outer:
+      serializedVersion: 2
+      x: 1904
+      y: 490
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1904
+      y: 490
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_outline
+    outer:
+      serializedVersion: 2
+      x: 1623
+      y: 672
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1641
+      y: 691
+      width: 9
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: level_outline_blank
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 672
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1595
+      y: 689
+      width: 8
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: health_counter_empty
+    outer:
+      serializedVersion: 2
+      x: 1892
+      y: 359
+      width: 53
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 1892
+      y: 359
+      width: 53
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: health_counter
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 28
+      width: 53
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 28
+      width: 53
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mission
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 9
+      width: 90
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 9
+      width: 7
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar_base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 358
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 358
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar_shine
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 343
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 343
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar_star
+    outer:
+      serializedVersion: 2
+      x: 1776
+      y: 358
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1776
+      y: 358
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 41
+      width: 365
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 41
+      width: 365
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar_star_empty
+    outer:
+      serializedVersion: 2
+      x: 1834
+      y: 358
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1834
+      y: 358
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 448
+      width: 203
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 448
+      width: 203
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_pointer
+    outer:
+      serializedVersion: 2
+      x: 1550
+      y: 792
+      width: 16
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1550
+      y: 792
+      width: 16
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_pointer2
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 3
+      width: 22
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 481
+      y: 3
+      width: 22
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_lights_3X
+    outer:
+      serializedVersion: 2
+      x: 1883
+      y: 448
+      width: 50
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1883
+      y: 448
+      width: 50
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_lights_4X
+    outer:
+      serializedVersion: 2
+      x: 1831
+      y: 448
+      width: 51
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1831
+      y: 448
+      width: 51
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_lights_5X
+    outer:
+      serializedVersion: 2
+      x: 1271
+      y: 4
+      width: 51
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1271
+      y: 4
+      width: 51
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: crowdmeter_lights_2X
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 4
+      width: 51
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 4
+      width: 51
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbar_empty
+    outer:
+      serializedVersion: 2
+      x: 1568
+      y: 790
+      width: 70
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 1596
+      y: 790
+      width: 20
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ForgottenBonusFont_0_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 512
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: share
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 397
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 397
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white_square
+    outer:
+      serializedVersion: 2
+      x: 359
+      y: 35
+      width: 5
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 361
+      y: 37
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tire
+    outer:
+      serializedVersion: 2
+      x: 954
+      y: 5
+      width: 59
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 954
+      y: 5
+      width: 59
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: filmstrip
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 415
+      width: 237
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 415
+      width: 237
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jump
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 203
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1345
+      y: 203
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gadgetbutton_base
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 312
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1345
+      y: 312
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_wings_on
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 168
+      width: 117
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 168
+      width: 117
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_vehiclerocket_on
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 672
+      width: 157
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 672
+      width: 157
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_rocket_on
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 65
+      width: 148
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 65
+      width: 148
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: more
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 306
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 306
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: less
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 215
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 215
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: plus
+    outer:
+      serializedVersion: 2
+      x: 1829
+      y: 681
+      width: 102
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1829
+      y: 681
+      width: 102
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: brake_throttle_glow
+    outer:
+      serializedVersion: 2
+      x: 1045
+      y: 237
+      width: 161
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 1109
+      y: 314
+      width: 49
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: white_circle
+    outer:
+      serializedVersion: 2
+      x: 1946
+      y: 372
+      width: 42
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1946
+      y: 372
+      width: 42
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: next_disabled
+    outer:
+      serializedVersion: 2
+      x: 1773
+      y: 581
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1773
+      y: 581
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: grid_disabled
+    outer:
+      serializedVersion: 2
+      x: 1631
+      y: 490
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1631
+      y: 490
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: reply_disabled
+    outer:
+      serializedVersion: 2
+      x: 1813
+      y: 490
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1813
+      y: 490
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbonus_base
+    outer:
+      serializedVersion: 2
+      x: 1276
+      y: 811
+      width: 291
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 1276
+      y: 811
+      width: 291
+      height: 213
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: starbonus_outline
+    outer:
+      serializedVersion: 2
+      x: 1529
+      y: 672
+      width: 46
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1529
+      y: 672
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coin_font
+    outer:
+      serializedVersion: 2
+      x: 1415
+      y: 10
+      width: 41
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1415
+      y: 10
+      width: 41
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: notification
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 362
+      width: 67
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1470
+      y: 410
+      width: 31
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: character_agent
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 82
+      width: 375
+      height: 348
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 82
+      width: 375
+      height: 348
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: character_mechanic
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 431
+      width: 375
+      height: 348
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 431
+      width: 375
+      height: 348
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_acceleration
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 95
+      width: 61
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 95
+      width: 61
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_spin
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 12
+      width: 77
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 12
+      width: 77
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_topspeed
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 12
+      width: 81
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 12
+      width: 81
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_helmet_on
+    outer:
+      serializedVersion: 2
+      x: 1915
+      y: 780
+      width: 116
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1915
+      y: 780
+      width: 116
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: equip_back
+    outer:
+      serializedVersion: 2
+      x: 1932
+      y: 689
+      width: 111
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1932
+      y: 689
+      width: 111
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: equip_moped
+    outer:
+      serializedVersion: 2
+      x: 1571
+      y: 581
+      width: 110
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1571
+      y: 581
+      width: 110
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: equip_head
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 581
+      width: 111
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1459
+      y: 581
+      width: 111
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow_right
+    outer:
+      serializedVersion: 2
+      x: 1995
+      y: 527
+      width: 45
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1995
+      y: 527
+      width: 45
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow_left
+    outer:
+      serializedVersion: 2
+      x: 1691
+      y: 780
+      width: 45
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1691
+      y: 780
+      width: 45
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_dark
+    outer:
+      serializedVersion: 2
+      x: 1759
+      y: 812
+      width: 155
+      height: 212
+    inner:
+      serializedVersion: 2
+      x: 1819
+      y: 912
+      width: 35
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_white
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 568
+      width: 155
+      height: 211
+    inner:
+      serializedVersion: 2
+      x: 949
+      y: 668
+      width: 35
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vehiclebar
+    outer:
+      serializedVersion: 2
+      x: 1276
+      y: 780
+      width: 136
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1276
+      y: 780
+      width: 136
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vehiclebar_green
+    outer:
+      serializedVersion: 2
+      x: 1413
+      y: 780
+      width: 136
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1413
+      y: 780
+      width: 136
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gadget_base
+    outer:
+      serializedVersion: 2
+      x: 1717
+      y: 356
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1727
+      y: 366
+      width: 38
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: equipped
+    outer:
+      serializedVersion: 2
+      x: 1670
+      y: 677
+      width: 50
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1670
+      y: 677
+      width: 50
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: for_sale
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 3
+      width: 69
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 1356
+      y: 14
+      width: 42
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: close
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 1
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 1
+      width: 64
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: plus_disabled
+    outer:
+      serializedVersion: 2
+      x: 1639
+      y: 786
+      width: 51
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1639
+      y: 786
+      width: 51
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: notification_white
+    outer:
+      serializedVersion: 2
+      x: 1045
+      y: 89
+      width: 163
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1139
+      y: 107
+      width: 50
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: upgrade_base
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 11
+      width: 203
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 533
+      y: 36
+      width: 163
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: levels_outline_large
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 75
+      width: 88
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 1385
+      y: 111
+      width: 2
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: levels_outline
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 465
+      width: 76
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1479
+      y: 485
+      width: 33
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: topspeed
+    outer:
+      serializedVersion: 2
+      x: 1627
+      y: 165
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1627
+      y: 165
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: acceleration
+    outer:
+      serializedVersion: 2
+      x: 1459
+      y: 10
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1459
+      y: 10
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lift
+    outer:
+      serializedVersion: 2
+      x: 1135
+      y: 19
+      width: 73
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1135
+      y: 19
+      width: 73
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_propel_on
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 421
+      width: 106
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1345
+      y: 421
+      width: 106
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_cap_on
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 304
+      width: 147
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 304
+      width: 147
+      height: 122
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_goggles_on
+    outer:
+      serializedVersion: 2
+      x: 1377
+      y: 684
+      width: 151
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 1377
+      y: 684
+      width: 151
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_winterhat_on
+    outer:
+      serializedVersion: 2
+      x: 1345
+      y: 548
+      width: 113
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1345
+      y: 548
+      width: 113
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_longhat_on
+    outer:
+      serializedVersion: 2
+      x: 1915
+      y: 901
+      width: 129
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1915
+      y: 901
+      width: 129
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_hat_on
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 295
+      width: 124
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 295
+      width: 124
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_springs_on
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 178
+      width: 139
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 178
+      width: 139
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icehockey_on
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 427
+      width: 146
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 427
+      width: 146
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_icehockey_helmet_on
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 44
+      width: 113
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 44
+      width: 113
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: item_xmashat_on
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 419
+      width: 123
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 419
+      width: 123
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

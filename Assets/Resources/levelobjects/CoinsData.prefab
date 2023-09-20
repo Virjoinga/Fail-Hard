@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1575977394053940}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1575977394053940
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4294562600091241}
+  - 114: {fileID: 114447993238420586}
+  - 114: {fileID: 114574657212131396}
+  m_Layer: 0
+  m_Name: CoinsData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4294562600091241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575977394053940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.796236, y: 5.257197, z: -14.722168}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114447993238420586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575977394053940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95447c37a77799b0ab94a8e1e89aedbe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  CoinValue: 1
+  CoinAmount: 0
+  CoinPrefab: {fileID: 1200643819977291, guid: c1bc32f4be30a9d40a528cbed74fdd04, type: 2}
+  Visible: 1
+  PhysicsOn: 0
+  data: {fileID: 114574657212131396}
+--- !u!114 &114574657212131396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575977394053940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc3d690ebe4960384ff2ebe2f3d892, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  data:
+  - {x: 7.792835, y: 2.4980655, z: 0.7956276}
+  - {x: 8.16124, y: 3.2019658, z: 0.7960682}
+  - {x: 8.784838, y: 3.7314563, z: 0.7939024}
+  - {x: 9.524775, y: 4.0969768, z: 0.79324055}
+  - {x: 10.325941, y: 4.206198, z: 0.79052544}
+  - {x: 11.139662, y: 4.2291083, z: 0.78798676}
+  - {x: 11.911898, y: 4.134834, z: 0.78549004}
+  - {x: 12.7099285, y: 3.9066844, z: 0.782794}
+  - {x: 13.463419, y: 3.5553412, z: 0.7802248}
+  - {x: 14.11709, y: 3.1312861, z: 0.77801514}
+  - {x: 14.736847, y: 2.6145988, z: 0.77586937}
+  - {x: 15.270456, y: 2.0666938, z: 0.7738676}
+  - {x: 15.776808, y: 1.4480591, z: 0.771822}

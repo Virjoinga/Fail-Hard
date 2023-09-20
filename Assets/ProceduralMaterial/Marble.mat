@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!185 &18500000
+ProceduralMaterial:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Marble
+  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 18600000, guid: d8a6f75f9037221439edd7f739d8cc0f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 18600000, guid: 4c23e2d1c387c3a4baa93f968d8d5bc1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 0.078125
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Width: 9
+  m_Height: 9
+  m_GenerateMipmaps: 1
+  m_Textures:
+  - {fileID: 18600000, guid: 4c23e2d1c387c3a4baa93f968d8d5bc1, type: 2}
+  - {fileID: 18600000, guid: d8a6f75f9037221439edd7f739d8cc0f, type: 2}
+  m_Flags: 544
+  m_LoadingBehavior: 4
+  m_SubstancePackage: {fileID: 18400000, guid: 86dd9b0e99e614b49824fbb3efb17359, type: 2}
+  m_Inputs:
+  - name: $randomseed
+    label: $randomseed
+    group:
+    type: 1
+    value:
+      scalar[0]: 0
+      scalar[1]: 0
+      scalar[2]: 0
+      scalar[3]: 0
+      texture: {fileID: 0}
+    internalType: 4
+    internalIndex: 5
+    internalIdentifier: 3106477268
+    componentLabels: []
+    minimum: -3.4028235E+38
+    maximum: 3.4028235E+38
+    step: 1
+    flags: 9
+    alteredTexturesUID:
+    - 2422420512
+    - 2422420526
+    enumValues: []
+  m_PrototypeName: Marble
+  m_AnimationUpdateRate: 0
+  m_Hash:
+    bytes[0]: 160
+    bytes[1]: 135
+    bytes[2]: 226
+    bytes[3]: 111
+    bytes[4]: 78
+    bytes[5]: 23
+    bytes[6]: 50
+    bytes[7]: 60
+    bytes[8]: 162
+    bytes[9]: 193
+    bytes[10]: 242
+    bytes[11]: 22
+    bytes[12]: 201
+    bytes[13]: 29
+    bytes[14]: 32
+    bytes[15]: 22

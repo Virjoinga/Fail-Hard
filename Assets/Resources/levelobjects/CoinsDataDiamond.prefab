@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1349059330164498}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1349059330164498
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4792818101617375}
+  - 114: {fileID: 114354074482031896}
+  - 114: {fileID: 114402316634056596}
+  m_Layer: 0
+  m_Name: CoinsDataDiamond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4792818101617375
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349059330164498}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268328, w: -0.9238796}
+  m_LocalPosition: {x: 9.542905, y: 4.1344647, z: -5.5444336}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114354074482031896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349059330164498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95447c37a77799b0ab94a8e1e89aedbe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  CoinValue: 1
+  CoinAmount: 0
+  CoinPrefab: {fileID: 1200643819977291, guid: c1bc32f4be30a9d40a528cbed74fdd04, type: 2}
+  Visible: 1
+  PhysicsOn: 0
+  data: {fileID: 114402316634056596}
+--- !u!114 &114402316634056596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349059330164498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc3d690ebe4960384ff2ebe2f3d892, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  data:
+  - {x: 0.90000886, y: -8.694898E-06, z: 0}
+  - {x: -0.8999999, y: -2.964329E-07, z: 0}
+  - {x: 0.899999, y: 0.8999996, z: 0}
+  - {x: -0.9000002, y: 0.9000007, z: 0}
+  - {x: -0.899999, y: -0.8999996, z: 0}
+  - {x: 0.9000176, y: -0.9000181, z: 0}
+  - {x: 2.6552527E-07, y: 0.9000004, z: 0}
+  - {x: 8.7257995E-06, y: -0.90000945, z: 0}

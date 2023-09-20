@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1808638706797700}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1808638706797700
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4931368214913981}
+  - 114: {fileID: 114547752926863573}
+  - 114: {fileID: 114811418424010646}
+  m_Layer: 0
+  m_Name: CoinsDataGreater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4931368214913981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808638706797700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7547882, y: 4.434925, z: -1.0432129}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114547752926863573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808638706797700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95447c37a77799b0ab94a8e1e89aedbe, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  CoinValue: 1
+  CoinAmount: 0
+  CoinPrefab: {fileID: 1200643819977291, guid: c1bc32f4be30a9d40a528cbed74fdd04, type: 2}
+  Visible: 1
+  PhysicsOn: 0
+  data: {fileID: 114811418424010646}
+--- !u!114 &114811418424010646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808638706797700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc3d690ebe4960384ff2ebe2f3d892, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  data:
+  - {x: 0.6000004, y: 0, z: 0}
+  - {x: 0.31694698, y: 0.322443, z: 0}
+  - {x: 0, y: 0.6000004, z: 0}
+  - {x: 0.30228996, y: -0.30229044, z: 0}
+  - {x: 0, y: -0.6000004, z: 0}
